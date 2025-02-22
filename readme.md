@@ -1,6 +1,6 @@
-# The Language Lens
+# The Language Lens (dictionary_app)
 
-The Language Lens is a simple web application that allows users to search for word definitions, parts of speech, examples, and antonyms using the Free Dictionary API.
+The Language Lens is a simple web application that allows users to search for word definitions, parts of speech, examples, antonyms, and words pronunciation using the Free Dictionary API.
 
 ## Features
 - Search for word meanings and parts of speech
@@ -8,6 +8,7 @@ The Language Lens is a simple web application that allows users to search for wo
 - Retrieve antonyms if available
 - Link to more information from the dictionary source
 - Responsive design for mobile compatibility
+- Updated with pronunciation feature which plays pronunciation audio when button is clicked
 
 ## Technologies Used
 - HTML
@@ -18,11 +19,11 @@ The Language Lens is a simple web application that allows users to search for wo
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/language-lens.git
+   git clone https://github.com/animesh713331/dictionary_app.git
    ```
 2. Navigate to the project folder:
    ```sh
-   cd language-lens
+   cd dictionary_app
    ```
 3. Open `index.html` in a web browser.
 
@@ -30,7 +31,8 @@ The Language Lens is a simple web application that allows users to search for wo
 1. Enter a word in the search bar.
 2. Click the "Search" button.
 3. View the definition, part of speech, examples, and antonyms.
-4. Click "Read More" for additional information.
+4. Pronounce the word using play audio button.
+5. Click "Read More" for additional information.
 
 ## File Structure
 ```
@@ -46,9 +48,6 @@ The Language Lens is a simple web application that allows users to search for wo
 - The application fetches data from the Free Dictionary API.
 - API endpoint: `https://api.dictionaryapi.dev/api/v2/entries/en/{word}`
 
-## License
-This project is licensed under the MIT License.
-
 ## Author
-- Developed by [Your Name]
+- Developed by Animesh Kumar Singh
 
